@@ -1,4 +1,4 @@
-# Exercise - "How to learn a new codebase FAST" (Frontend)
+# Refactoring Take-Home Assignment (Frontend)
 
 ## 🎯 Learning Goals
 
