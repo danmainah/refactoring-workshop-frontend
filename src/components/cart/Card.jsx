@@ -36,14 +36,17 @@ export const Card = () => {
           </button>
         </div>
         {cartItems.map((item) => (
-          <CartItems
-            id={item.id}
-            cover={item.cover}
-            name={item.name}
-            price={item.price}
-            quantity={item.quantity}
-            totalPrice={item.totalPrice}
-          />
+          <div key={item.id}>
+            <CartItems
+              id={item.id}
+              cover={item.cover}
+              name={item.name}
+              price={item.price}
+              quantity={item.quantity}
+              totalPrice={item.totalPrice}
+            />
+          </div>
+          
         ))}
 
         <div className="checkOut">
